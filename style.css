@@ -35,7 +35,7 @@ body {
     width: 300px;
 }
 
-#site, #home, #resume, #projects, #contact {
+#name, #home, #resume, #projects, #contact {
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
 }

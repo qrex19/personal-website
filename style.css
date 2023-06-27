@@ -1,0 +1,141 @@
+* {
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color:beige;
+}
+
+.navbar-container {
+
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEADD;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+
+}
+
+.navbar-box {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+#site, #home, #resume, #projects, #contact {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.body-container {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-box {
+    height: 50%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+    border: 10px solid #F7FFE5;
+}
+
+#image:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 125px;
+}
+
+.bodybox-left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.bodybox-left:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bodybox-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro-title {
+    font-size:380%;
+    width: 99%;
+    text-align: center;
+}
+
+.tech-stack-container {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#intro {
+    width: 365px;
+    font-size: large;
+}
+
+#resume {
+    text-decoration: underline;
+    color: black;
+    
+}
+
+#contact {
+    text-decoration: underline;
+    color: black;
+}
+
+.bottom {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+}
+
+#leetcode-icon {
+    height: 28px;
+}
+
+#github-icon, #twitter-icon, #leetcode-icon {
+    cursor: pointer;
+}

@@ -196,3 +196,8 @@ body {
 #projects {
   color: black;
 }
+
+#link {
+  width: 100%;
+  height: 80px;
+}
